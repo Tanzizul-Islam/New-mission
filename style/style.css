@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: myfont;
+    src: url(../Fonts/Merriweather.ttf);
+}
+/* header section */
+.header-bg{
+    background-image: url(../images/Banner\ Image.png);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin: 30px 100px;
+    border-radius: 10px;
+}
+
+.header-container{
+    text-align: center;
+    color: aliceblue;
+    font-family: myfont;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 200px 100px 0px 0px;
+
+
+}
+.header-content{
+    text-align: center;
+    color: aliceblue;
+    font-family: myfont;
+    font-weight: 900;
+    line-height: px;
+    font-size: 50px;
+}
+/* main section */
+
+.categories{
+    margin-top: 50px;
+    text-align: center;
+}
+.categories-title{
+    font-size: 50px;
+    font-family: myfont;
+    color: #FF0000;
+    margin-bottom: 20px;
+}
+.categorise-content{
+    font-size: 16px;
+    color: #FF0000;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.all-categories{
+    font-size: 25px;
+}
+.categories-image{
+    width: 800px;
+    height: 500px;
+}
