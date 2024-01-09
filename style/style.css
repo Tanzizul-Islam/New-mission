@@ -145,6 +145,7 @@ span a{
     padding: 5px;
     margin-left: 48%;
     margin-top: 20px;
+    color: #FFF;
 }
     .new-header{
         width: 90%;
@@ -346,6 +347,7 @@ span a{
     background: #F00;
     margin-left: -105px;
     border: 0px;
+    color: #FFF;
 }
 .address{
     width: 100%;
@@ -404,7 +406,7 @@ span a{
       
 }
 .gap{
-    margin-bottom: 260px;
+    margin-bottom: 210px;
 }   
 .call-image{
     margin-top: 120px;
