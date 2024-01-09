@@ -5,30 +5,34 @@
 }
 /* header section */
 .header-bg{
-    background-image: url(../images/Banner\ Image.png);
+    background: rgba(0, 0, 0, .6) url(../images/Banner\ Image.png);
+    background-blend-mode: darken;
+    background-size: cover;
     height: 600px;
-    width: 100%;
+    width: 95%;
     background-repeat: no-repeat;
-    margin: 30px 100px;
+    margin: 30px auto;
     border-radius: 10px;
+    
 }
-
 .header-container{
     text-align: center;
     color: aliceblue;
-    font-family: myfont;
-    font-size: 20px;
-    font-weight: 300;
     padding: 200px 100px 0px 0px;
 
-
+}
+.header-title{
+    font-size: 20px;
+    font-family: myfont;
+    font-weight: 300;
+    padding-top: 20px;
 }
 .header-content{
     text-align: center;
     color: aliceblue;
     font-family: myfont;
     font-weight: 900;
-    line-height: px;
+    line-height: 60px;
     font-size: 50px;
 }
 /* main section */
@@ -55,4 +59,187 @@
 .categories-image{
     width: 800px;
     height: 500px;
+}
+.main-container{
+    background: rgba(0, 0, 0, .6) url(../images/Vectorrr.png);
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 600px;
+    width: 95%;
+    background-repeat: no-repeat;
+    margin: 80px auto;
+    border-radius: 10px;
+    
+}
+.main-container-box{
+    width: 50%;
+    padding: 100px 30px;
+}
+.main-container-box h2{
+        ;
+}
+.main-container-title{
+    text-align: center;
+    color: aliceblue;
+    font-family: myfont;
+    font-weight: 900;
+    line-height: 60px;
+    font-size: 50px;
+}
+.main-container-content{
+    font-size: 18px;
+    font-weight: 400;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 0px;
+}
+.main-container-btn{
+    margin: 20px 0px 0px 160px;
+    color: aliceblue;
+    text-transform: uppercase;
+    
+}
+span a{
+    text-decoration: none;
+}
+.vector{
+    display: flex;
+    width: 50%;
+    text-align: right;
+    
+
+}
+.group-70{
+    position: relative;
+    margin-left: 1000px;
+    margin-top: -400px;
+}
+.place-bg{
+    width: 95%;
+    margin: auto;
+    height: 400px;
+    background: linear-gradient(180deg, rgba(254, 0, 0, 0.416) 0%, rgba(255, 0, 0, 0.00) 100%);
+
+}
+.place-item{
+    padding-top: 150px;
+}
+.place{
+    text-align: center;
+    font-size: 25px;
+    margin: 5px 0px;
+    
+}
+.place-title{
+    color: #FF0000;
+}
+.place-btn{
+    border-radius: 5px;
+    background-color: #FF0000;
+    border: 0px;
+    padding: 5px;
+    margin-left: 48%;
+    margin-top: 20px;
+}
+    .new-header{
+        width: 95%;
+        display: flex;
+        margin: auto;
+        padding-top: 80px;
+    }
+    .new-item{
+        width: 33.3%;
+        text-align: left;
+        padding-left: 20px;
+    }
+    .new-item-title-1{
+        font-size: 18px;
+        font-weight: 500;
+        font-family: intel;
+        padding-top: 90px;
+    }
+    .new-item h2{
+        font-size: 48px;
+        font-weight: 900;
+        font-family: myfont;
+        margin: 0px;
+    }
+    .new-item p{
+        font-size: 15px;
+        font-family: intel;
+        font-weight: 400;
+    }
+    .new-item-image{
+        height: 380px;
+        width: 400px;
+        border-radius: 50%;
+        border: 15px solid #FF0000;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .new-item-image image{
+        padding-top: 10px;
+
+    }
+.new-item-title{
+    font-size: 35px;
+    font-weight: 700;
+    font-family: intel;
+    color: #FF0000;
+    padding-top: 50px;
+}
+.holidays-title{
+    text-align: center;
+    margin-top: 100px;
+}
+.holidays-title h4{
+    color: black;
+    font-size: 18px;
+    font-family: intel;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.holidays-title h2{
+    color: #F00;
+    text-align: center;
+    font-family: myfont;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 15px;
+}
+.holidays-title p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+.holidays-content{
+    display:flex;
+    width: 95% auto;
+    margin-top: 100px;
+}
+.holidays-img{
+    width: 50%;
+    z-index: 1;
+}
+.img-1{
+    margin-left: 232px;
+}
+.holidays-images{
+    background-image: url('../images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 1500px;
+    background-position: center bottom;
+    position: absolute;
+    top: 3880px;
+    bottom: 0;
+
+
+    
 }
