@@ -232,15 +232,27 @@ span a{
     width: 50%;
     z-index: 1;
 }
+.holidays-img-1{
+    width: 50%;
+}
 .img-1{
     margin-left: 232px;
-    z-index: -1;
+    z-index:-1;
+}
+.img-3{
+    z-index: 1;
+    background-image: url('../images/Group\ 44.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 380px;
+    top: 3550px;
 }
 .holidays-images{
     background-image: url('../images/Rectangle\ 2.png');
     background-repeat: no-repeat;
     height: 200px;
     width: 1500px;
+    z-index:;
     background-position: center bottom;
     position: absolute;
     top: 3880px;
