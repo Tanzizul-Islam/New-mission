@@ -3,13 +3,18 @@
     font-family: myfont;
     src: url(../Fonts/Merriweather.ttf);
 }
+@font-face {
+    font-family: intel;
+    src: url(../Fonts/intel.ttf);
+}
+
 /* header section */
 .header-bg{
     background: rgba(0, 0, 0, .6) url(../images/Banner\ Image.png);
     background-blend-mode: darken;
     background-size: cover;
     height: 600px;
-    width: 95%;
+    width: 90%;
     background-repeat: no-repeat;
     margin: 30px auto;
     border-radius: 10px;
@@ -50,6 +55,7 @@
 .categorise-content{
     font-size: 16px;
     color: #FF0000;
+    font-family: intel;
     padding-top: 0px;
     margin-top: 0px;
 }
@@ -65,7 +71,7 @@
     background-blend-mode: darken;
     background-size: cover;
     height: 600px;
-    width: 95%;
+    width: 90%;
     background-repeat: no-repeat;
     margin: 80px auto;
     border-radius: 10px;
@@ -75,9 +81,7 @@
     width: 50%;
     padding: 100px 30px;
 }
-.main-container-box h2{
-        ;
-}
+
 .main-container-title{
     text-align: center;
     color: aliceblue;
@@ -87,7 +91,8 @@
     font-size: 50px;
 }
 .main-container-content{
-    font-size: 18px;
+    font-size: 16px;
+    font-family: intel;
     font-weight: 400;
     color: aliceblue;
     text-align: center;
@@ -111,11 +116,11 @@ span a{
 }
 .group-70{
     position: relative;
-    margin-left: 1000px;
+    margin-left: 960px;
     margin-top: -400px;
 }
 .place-bg{
-    width: 95%;
+    width: 90%;
     margin: auto;
     height: 400px;
     background: linear-gradient(180deg, rgba(254, 0, 0, 0.416) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -142,7 +147,7 @@ span a{
     margin-top: 20px;
 }
     .new-header{
-        width: 95%;
+        width: 90%;
         display: flex;
         margin: auto;
         padding-top: 80px;
@@ -153,7 +158,7 @@ span a{
         padding-left: 20px;
     }
     .new-item-title-1{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 500;
         font-family: intel;
         padding-top: 90px;
@@ -165,7 +170,7 @@ span a{
         margin: 0px;
     }
     .new-item p{
-        font-size: 15px;
+        font-size: 16px;
         font-family: intel;
         font-weight: 400;
     }
@@ -194,7 +199,7 @@ span a{
 }
 .holidays-title h4{
     color: black;
-    font-size: 18px;
+    font-size: 16px;
     font-family: intel;
     font-weight: 500;
     margin-bottom: 0;
@@ -212,15 +217,15 @@ span a{
 .holidays-title p{
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
-    font-family: Inter;
-    font-size: 18px;
+    font-family: intel;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 28px;
 }
 .holidays-content{
     display:flex;
-    width: 95% auto;
+    width: 90% auto;
     margin-top: 100px;
 }
 .holidays-img{
@@ -229,6 +234,7 @@ span a{
 }
 .img-1{
     margin-left: 232px;
+    z-index: -1;
 }
 .holidays-images{
     background-image: url('../images/Rectangle\ 2.png');
@@ -239,7 +245,163 @@ span a{
     position: absolute;
     top: 3880px;
     bottom: 0;
+}
+.best-gifts{
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+.best-gifts h4{ 
+    color: #F00;
+    font-family: intel;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.best-gifts h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 0px 0px;
+}
+.best-gifts p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: intel;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+.best-gifts-content{
+    display: flex;
+    width: 92%;
+    margin: auto;
+}
+.gifts-item{
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.subscribe{
+    text-align: center;
+    width: 90%;
+    height: 525px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.subscribe img{
+    margin-top: 80px;
+}
+.subscribe h3{
+    color: #070211;
+    text-align: center;
+    font-family: myfont;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 900;
+    margin: 10px 0px;
+    text-transform: capitalize;
+}
+.subscribe p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: intel;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+.user-email{
+    width: 300px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    padding-left: 30px;
+    border: 0px;
+}
+.subscribe-btn{
+    width: 100px;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    margin-left: -105px;
+    border: 0px;
+}
+.address{
+    width: 100%;
+    height: 500px;
+    flex-shrink: 0;
+    background: #070211;
+    margin-top: 80px;
+    display: flex;
 
+}
+.address-item{
+    margin: 120px 0px 0px 100px;
 
+}
+.address-item p{
+    color: #FFF;
+    font-family: intel;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    text-align: center;
+    padding-left: 30px;
+    margin-bottom: 215px;
+}
+.social{
+    margin: 200px 0px 0px 20px; 
+    padding-left: 120px;
+    
+}
+.social img{
+    text-align: center;
+    padding-left: 20px;
+
+}
+.number{
+    margin: 120px;
+}
+.number p{
+    color: #FFF;
+    font-family: intel;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 8px; /* 166.667% */
+    text-align: center;
+    padding-left: 30px;
+}
+.unsubscribe{
+    color: #FFF;
+    font-family: intel;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 200px;
+      
+}
+.gap{
+    margin-bottom: 260px;
+
+}
+.all-right{
+    color: #FFF;
+    font-family: intel;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
     
 }
